@@ -1,4 +1,0 @@
-  git config --global user.name "Sean Valdes"
-  git config --global user.email Sean.tech@gmail.com
-  git config --global init.defaultBranch main
-  
