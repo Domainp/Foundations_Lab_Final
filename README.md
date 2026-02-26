@@ -25,6 +25,13 @@ Shared Responsibility: In the cloud, the provider (like AWS or Azure) secures th
 
 Lab Connection: The use of a GitHub repository to store and version-control  lab deliverables is a practical example of using cloud-based tools for security documentation.
 
+Category,                               Competency Demonstrated
+Linux Administration,                   Provisioned an Ubuntu 24.04 LTS (AMD64) Server environment and managed system permissions using chmod.
+Automation & Scripting,                 Authored and executed a Bash audit script to automate system health logs and file I/O operations.
+Network Engineering,                    "Engineered a Star Topology using Cisco hardware, implementing static IPv4 addressing and verifying Layer 3 connectivity via ICMP."
+Infrastructure-as-Code,                 Managed the technical supply chain by synchronizing local infrastructure artifacts to a remote GitHub repository using Git CLI.
+Technical Troubleshooting,              Resolved ICMP timeouts (logical layer) and Git pathspec errors (directory context) through systematic debugging.
+
 
 Linux Systems Administration: Provisioned an Ubuntu 24.04 LTS environment and automated system audits using Bash scripting.
 
