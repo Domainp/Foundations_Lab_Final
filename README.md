@@ -24,3 +24,10 @@ Cloud security is a collection of security measures designed to protect cloud-ba
 Shared Responsibility: In the cloud, the provider (like AWS or Azure) secures the hardware, while the user (you) is responsible for securing the data and access permissions.
 
 Lab Connection: The use of a GitHub repository to store and version-control  lab deliverables is a practical example of using cloud-based tools for security documentation.
+
+
+Linux Systems Administration: Provisioned an Ubuntu 24.04 LTS environment and automated system audits using Bash scripting.
+
+Network Engineering: Designed a functional Star Topology and configured static IPv4 addressing within a Cisco environment.
+
+Version Control & CI/CD: Managed the deployment pipeline by synchronizing local artifacts to a remote repository via Git CLI.
