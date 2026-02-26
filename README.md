@@ -38,3 +38,14 @@ Linux Systems Administration: Provisioned an Ubuntu 24.04 LTS environment and au
 Network Engineering: Designed a functional Star Topology and configured static IPv4 addressing within a Cisco environment.
 
 Version Control & CI/CD: Managed the deployment pipeline by synchronizing local artifacts to a remote repository via Git CLI.
+
+
+Security Philosophy
+Confidentiality: The lab environment utilizes virtualization (such as VirtualBox or UTM) or cloud-based containers (Google Cloud Shell) to abstract your physical hardware. This isolation protects confidentiality by completely separating your experimental lab workspace from your host operating system, ensuring that security tools or scripts run in the lab cannot accidentally access or expose the private data stored on your personal laptop.
+
+Integrity: The overarching objective of the deployment is to stop troubleshooting various physical laptops and instead build "one standardized environment". This strict standardization ensures system integrity by providing a controlled, clean state for your operations. Because the Linux virtual machine operates independently, running system audit scripts like lab_verify.sh will not modify, corrupt, or compromise the integrity of your host machine's critical system files.
+
+Availability: The deployment is designed with three distinct hardware paths (Standard Build, Apple Silicon Build, and Cloud Build) to accommodate any device constraints. By abstracting the hardware, the lab guarantees the availability of a stable Ubuntu or Debian Linux terminal for 100% of the class. This ensures that your workspace and necessary tools (like Git and Python3) remain consistently accessible and ready for use regardless of the physical device you are using.
+
+Nieles, M., Dempsey, K., & Pillitteri, V. Y. (2017). An introduction to information security (NIST Special Publication 800-12 Rev. 1). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-12r1
+
