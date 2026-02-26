@@ -1,3 +1,15 @@
+Full VM validation log available here:
+
+📄 [setup_verify.txt](setup_verify.txt)
+
+This log confirms:
+- Virtualization detection
+- Network configuration
+- Git & Python installation
+- Snapshot availability
+
+
+
 Network Security
 Network security consists of the policies, processes, and practices adopted to prevent, detect, and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.
 
